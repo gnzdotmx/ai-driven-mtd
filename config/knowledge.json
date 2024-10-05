@@ -1,0 +1,227 @@
+[
+    {
+      "policy_name": "High Availability",
+      "criteria": {
+        "response_time_ms": 300 ,
+        "error_rate": 0.05 ,
+        "vulnerability_count": 10 ,
+        "intrusion_attempts": 50
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "json",
+        "switch_os": "ubuntu",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Security Tightening",
+      "criteria": {
+        "response_time_ms": 200 ,
+        "error_rate": 0.03 ,
+        "vulnerability_count": 50 ,
+        "intrusion_attempts": 60 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "yaml",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Cost Optimization",
+      "criteria": {
+        "response_time_ms": 50 ,
+        "error_rate": 0.1 ,
+        "vulnerability_count": 2 ,
+        "intrusion_attempts": 3 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "text",
+        "switch_os": "golang",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Performance Improvement",
+      "criteria": {
+        "response_time_ms": 350 ,
+        "error_rate": 0.07 ,
+        "vulnerability_count": 8 ,
+        "intrusion_attempts": 30 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "json",
+        "switch_os": "ubuntu",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Security Hardening",
+      "criteria": {
+        "response_time_ms": 100 ,
+        "error_rate": 0.02 ,
+        "vulnerability_count": 30 ,
+        "intrusion_attempts": 100 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "yaml",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Cost Reduction",
+      "criteria": {
+        "response_time_ms": 100 ,
+        "error_rate": 0.01 ,
+        "vulnerability_count": 40 ,
+        "intrusion_attempts": 25 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "text",
+        "switch_os": "ubuntu",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Performance Tuning",
+      "criteria": {
+        "response_time_ms": 250 ,
+        "error_rate": 0.05 ,
+        "vulnerability_count": 7 ,
+        "intrusion_attempts": 20 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "json",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Security Optimization",
+      "criteria": {
+        "response_time_ms": 150 ,
+        "error_rate": 0.07 ,
+        "vulnerability_count": 15 ,
+        "intrusion_attempts": 25 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "yaml",
+        "switch_os": "ubuntu",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Cost Cutting",
+      "criteria": {
+        "response_time_ms": 100 ,
+        "error_rate": 0.02 ,
+        "vulnerability_count": 17 ,
+        "intrusion_attempts": 35 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "text",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Performance Optimization",
+      "criteria": {
+        "response_time_ms": 250 ,
+        "error_rate": 0.06 ,
+        "vulnerability_count": 5 ,
+        "intrusion_attempts": 5 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "json",
+        "switch_os": "ubuntu",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Security Enhancement",
+      "criteria": {
+        "response_time_ms": 150 ,
+        "error_rate": 0.04 ,
+        "vulnerability_count": 24 ,
+        "intrusion_attempts": 80 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "yaml",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Cost Management",
+      "criteria": {
+        "response_time_ms": 350 ,
+        "error_rate": 0.07 ,
+        "vulnerability_count": 3 ,
+        "intrusion_attempts": 10 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "text",
+        "switch_os": "ubuntu",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Performance Enhancement",
+      "criteria": {
+        "response_time_ms": 400 ,
+        "error_rate": 0.08 ,
+        "vulnerability_count": 2 ,
+        "intrusion_attempts": 5 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "json",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    },
+    {
+      "policy_name": "Security Management",
+      "criteria": {
+        "response_time_ms": 450 ,
+        "error_rate": 0.09 ,
+        "vulnerability_count": 1 ,
+        "intrusion_attempts": 25 
+      },
+      "recommended_actions": {
+        "switch_language": "golang",
+        "switch_format": "yaml",
+        "switch_os": "ubuntu",
+        "rotate_ip": false
+      }
+    },
+    {
+      "policy_name": "Cost Optimization",
+      "criteria": {
+        "response_time_ms": 500 ,
+        "error_rate": 0.1 ,
+        "vulnerability_count": 0 ,
+        "intrusion_attempts": 20 
+      },
+      "recommended_actions": {
+        "switch_language": "python",
+        "switch_format": "text",
+        "switch_os": "golang",
+        "rotate_ip": true
+      }
+    }
+  ]

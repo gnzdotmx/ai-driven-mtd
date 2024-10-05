@@ -1,0 +1,22 @@
+{
+    "ports": [
+        "8080",
+        "8081",
+        "8082",
+        "8083"
+    ],
+    "oses": [
+        "golang",
+        "python",
+        "ubuntu"
+    ],
+    "formats": [
+        "json",
+        "yaml",
+        "text"
+    ],
+    "languages": [
+        "golang",
+        "python"
+    ]
+}
