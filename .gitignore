@@ -1,0 +1,11 @@
+# Do not include the monitoring folder as it is in WIP
+monitoring/
+
+# Do not include the docker/elasticsearch_data folder created by the Elasticsearch container
+docker/elasticsearch_data/
+
+# Do not include the docker/ollama folder created by the Ollama container
+docker/ollama/
+
+# Ignore .DS_Store files
+.DS_Store

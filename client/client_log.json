@@ -1,0 +1,31 @@
+{
+    "entries": [
+        {
+            "timestamp": "2024-10-06T01:04:50.505882+09:00",
+            "server_url": "http://localhost:8080",
+            "response_time_ms": 7.441166,
+            "status_code": 0,
+            "content_type": "",
+            "response_body": "",
+            "error": "Get \"http://localhost:8080\": dial tcp [::1]:8080: connect: connection refused"
+        },
+        {
+            "timestamp": "2024-10-06T01:04:50.505871+09:00",
+            "server_url": "http://localhost:8081",
+            "response_time_ms": 7.4570419999999995,
+            "status_code": 0,
+            "content_type": "",
+            "response_body": "",
+            "error": "Get \"http://localhost:8081\": dial tcp [::1]:8081: connect: connection refused"
+        },
+        {
+            "timestamp": "2024-10-06T01:08:34.15727+09:00",
+            "server_url": "http://localhost:8080",
+            "response_time_ms": 7.333708000000001,
+            "status_code": 0,
+            "content_type": "",
+            "response_body": "",
+            "error": "Get \"http://localhost:8080\": dial tcp [::1]:8080: connect: connection refused"
+        }
+    ]
+}

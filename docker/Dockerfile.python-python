@@ -1,0 +1,22 @@
+# Base image
+FROM python:3.10-slim
+
+# Set environment variable for response format
+ENV RESPONSE_FORMAT=${RESPONSE_FORMAT}
+ENV RESPONSE_LANGUAGE=${RESPONSE_LANGUAGE}
+ENV RESPONSE_OS=${RESPONSE_OS}
+
+# Set working directory
+WORKDIR /app
+
+# Copy Python server code
+COPY ../app_python/server.py .
+
+# Install required packages
+RUN pip install Flask PyYAML
+
+# Expose port
+EXPOSE 8080
+
+# Run the server
+CMD ["python", "server.py"]

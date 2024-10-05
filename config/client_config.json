@@ -1,0 +1,8 @@
+{
+	"servers": [
+		"http://localhost:8080"
+	],
+	"request_interval_seconds": 5,
+	"timeout_seconds": 5,
+	"output_log_file": "client_log.json"
+}

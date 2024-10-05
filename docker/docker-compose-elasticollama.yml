@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.4.3
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - ./elasticsearch_data:/usr/share/elasticsearch/data
+
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    volumes:
+      - ./ollama:/root/.ollama
+    ports:
+      - "11434:11434"

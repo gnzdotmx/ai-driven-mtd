@@ -1,0 +1,36 @@
+# File: golang_server_on_ubuntu/Dockerfile
+FROM ubuntu:20.04
+
+ENV RESPONSE_FORMAT=${RESPONSE_FORMAT}
+ENV RESPONSE_LANGUAGE=${RESPONSE_LANGUAGE}
+ENV RESPONSE_OS=${RESPONSE_OS}
+ENV DEBIAN_FRONTEND=noninteractive 
+
+# Install necessary packages
+RUN apt-get update -y && \
+    apt-get install -y golang-go git && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set environment variables
+ENV GOPATH=/go
+ENV PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# Set working directory
+WORKDIR /app
+
+# Copy Golang server code
+COPY ../app_golang/server.go .
+COPY ../app_golang/go.mod .
+COPY ../app_golang/go.sum .
+
+# Install YAML library
+RUN go get gopkg.in/yaml.v2
+
+# Build the Go application
+RUN go build -o server server.go
+
+# Expose port
+EXPOSE 8080
+
+# Command to run the executable
+CMD ["./server"]

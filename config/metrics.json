@@ -1,0 +1,27 @@
+{
+    "quality_of_service": {
+        "response_time_ms": 200,
+        "error_rate": 0.02
+    },
+    "security_metrics": {
+        "vulnerability_count": 49,
+        "intrusion_attempts": 61
+    },
+    "asset_value": {
+        "critical_assets": 3,
+        "high_value_assets": 5
+    },
+    "strategy_settings": {
+        "thresholds": {
+            "response_time_ms": 300,
+            "error_rate": 0.05,
+            "vulnerability_count": 10,
+            "intrusion_attempts": 5
+        },
+        "weights": {
+            "quality_of_service": 0.4,
+            "security_metrics": 0.4,
+            "asset_value": 0.2
+        }
+    }
+}
