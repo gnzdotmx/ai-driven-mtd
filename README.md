@@ -4,6 +4,8 @@ This repository contains an AI-driven Moving Target Defense (MTD) system that us
 
 The MTD system aims to improve security, reduce costs, optimize performance, etc., by making dynamic changes to the configuration of a system based on the current metrics and previous decisions made by Subject Matter Experts (SMEs).
 
+![alt Architecture](./imgs/architecture.gif)
+
 ## Components
 
 The system consists of the following components:
